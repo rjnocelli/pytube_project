@@ -1,5 +1,5 @@
 # pytube_project
-Simple script used to download videos or audio from YouTube using `pytube` library (https://pytube.io/en/latest/).
+Simple script used to download video or audio from YouTube using `pytube` library (https://pytube.io/en/latest/).
 Assuming you have python3 installed:
 - download repo
 - open console and `cd` into directory `pytube_project`
