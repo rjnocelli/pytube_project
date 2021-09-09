@@ -4,5 +4,5 @@ Assuming you have python3 installed:
 - download repo
 - open console and `cd` into directory `pytube_project`
 - run `pipenv shell` to active venv shell
-- run `pipenv sync` to install all dependencies
+- run `pip install -r requirements.txt` to install all dependencies
 - run `./python3 python_youtube.py` and follow instructions
