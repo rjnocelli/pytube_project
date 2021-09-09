@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def run():
     from pytube import YouTube
 
@@ -25,7 +26,6 @@ def run():
         audio_file_only = input(str("download audio file only? y/n "))
         try:
             links = [link.strip(" ") for link in links.split(",")]
-            print(links)
             if audio_file_only.lower() == "y":
                 args = {"abr": "128kbps", "mime_type": "audio/mp4"}
                 filename_prefix = "audio-"
@@ -43,6 +43,6 @@ def run():
             print("ALL DONE!")
             break
         except:
-            print(f"at least one of the provided links is invalid, try again...")
+            print("at least one of the provided links is invalid, try again...")
 
 run()
