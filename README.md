@@ -5,4 +5,4 @@ Assuming you have python3 installed:
 - open console and `cd` into directory `pytube_project`
 - run `pipenv shell` to active venv shell
 - run `pip install -r requirements.txt` to install all dependencies
-- run `./python3 python_youtube.py` and follow instructions
+- run `python3 ./python_youtube.py` and follow instructions
